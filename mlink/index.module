@@ -8,4 +8,4 @@ mlink=type=http-response,pattern=^https://api\.mlinkapp\.cc/v1/user$,requires-bo
 
 [MITM]
 
-hostname= api.mlinkapp.cc
+hostname= %APPEND% api.mlinkapp.cc
