@@ -1,0 +1,11 @@
+#!name=mlink
+
+#!desc=mlink
+
+[Script]
+
+mlink=type=http-response,pattern=^https://api\.mlinkapp\.cc/v1/user$,requires-body=1,script-path=https://raw.githubusercontent.com/
+
+[MITM]
+
+hostname= %APPEND% api.mlinkapp.cc
