@@ -1,10 +1,8 @@
 var modifiedResponse = $response.body;
 var responseJson = JSON.parse(modifiedResponse);
 
-responseJson.data.vipType = "free";
-responseJson.data.level = 1;
-responseJson.data.expireTime = 1703578727384;
-responseJson.data.role = "anonymous";
+responseJson.data.vipType = "svip";
+responseJson.data.level = 3;
 
 modifiedResponse = JSON.stringify(responseJson);
 $done({ body: modifiedResponse });
