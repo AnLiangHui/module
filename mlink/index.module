@@ -1,10 +1,10 @@
-#!name=mlink
+#!name=秒连黑金
 
-#!desc=mlink
+#!desc=秒连黑金
 
 [Script]
 
-mlink=type=http-response,pattern=^https://api\.mlinkapp\.cc/v1/user$,requires-body=1,script-path=https://raw.githubusercontent.com/AnLianghui/module/main/mlink/index.js
+秒连黑金=type=http-response,pattern=^https://api\.mlinkapp\.cc/v1/user$,requires-body=1,script-path=https://raw.githubusercontent.com/AnLianghui/module/main/mlink/index.js
 
 [MITM]
 
