@@ -1,10 +1,10 @@
-#!name=秒连黑金
+#!name=乐翻
 
-#!desc=秒连黑金
+#!desc=乐翻
 
 [Script]
 
-秒连黑金=type=http-response,pattern=^https://api\.lofunvpn\.com/api/v5/user$,requires-body=1,script-path=https://raw.githubusercontent.com/AnLianghui/module/main/lofun/index.js
+乐翻=type=http-response,pattern=^https://api\.lofunvpn\.com/api/v5/user$,requires-body=1,script-path=https://raw.githubusercontent.com/AnLianghui/module/main/lofun/index.js
 
 [MITM]
 
